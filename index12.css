@@ -1,0 +1,236 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.header {
+    padding: 16px 11px;
+}
+
+.drawn {
+    margin-left: 20px;
+}
+
+.about {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.drawn a:hover {
+    color: #007bff;
+}
+
+.head1 {
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.head2 {
+    width: 50%;
+}
+
+.mobilepicture {
+    width: 100%;
+    height: 100%;
+}
+
+.dawn {
+    background-color: #180e5c;
+}
+
+.alpha {
+    padding: 74px 0;
+}
+
+.serive_section {
+    position: relative;
+}
+
+.layout {
+    padding: 90px 0;
+}
+
+.super {
+    background-color: #f8f8f9;
+    text-align: center;
+    margin-right: 24px;
+    width: 30%;
+    padding: 19px;
+}
+
+.view {
+    padding: 10px 41px;
+    background-color: #00bbf0;
+    color: white;
+    border-radius: 0%;
+    border: none;
+    font-size: 17px;
+}
+
+.spider {
+    background-color: #00204a;
+    padding: 85px 0;
+}
+
+.spider1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spider2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.abc {
+    margin-top: 18px;
+}
+
+.def {
+    margin-top: 28px;
+}
+
+.coins {
+    width: 100%;
+    /* height: 438px; */
+    padding: 0px 8px;
+}
+
+.sparrow1 {
+    width: 120px;
+    height: 120px;
+    border: 5px solid #00204a;
+    justify-content: center;
+    margin: bottom;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sparrow {
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+    padding: 0px 23px;
+}
+
+.badman {
+    background-color: #002b64;
+    padding: 37px 0 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+
+.badman1 img {
+    border: 5px solid #ffffff;
+    border-radius: 100%;
+
+}
+
+.icons {
+    padding: 10px 49px 21px;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons a {
+    color: white;
+}
+
+.icons a:hover {
+    color: #00bbf0;
+}
+
+.main {
+    padding: 90px 0;
+}
+
+.lady {
+    padding: 14px 27px;
+    margin-top: 59px;
+    box-shadow: 0 0 16px 0 rgb(0 0 0 / 11%);
+    margin-bottom: 43px;
+}
+
+.photo {
+    margin-top: -71px;
+    border-radius: 100%;
+}
+
+.logo {
+    margin-left: 83%;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+.footer{
+    background-color: #00204a;
+    padding: 45px 0px 15px 0px;
+    color: white;
+}
+.fix{
+    margin-right: 5px;
+    color: white;
+    font-size: inherit;
+}
+input{
+    border: solid 1px white;
+    width: 97%;
+    padding: 0px 0px 15px;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+.tix{
+    text-decoration: none;
+    color: white; 
+}
+.admit{
+    width: 25%; 
+    padding: 0px 63px;  
+    margin-bottom: 42px;
+}
+
+
+
+@media only screen and (max-width: 991px) {
+    .admit {
+        width: 50%;
+        padding: 0px 18px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .head1 {
+        width: 100%;
+    }
+
+    .head2 {
+        width: 100%;
+    }
+
+    .super {
+        width: 100%;
+        margin-bottom: 40px;
+        margin-left: 25px;
+    }
+
+}
